@@ -21,9 +21,11 @@ const Services = () => {
           className='font-bold text-3xl text-black-500 text-center'>Let`&apos;`s Chat About My Next <br/> Job Offer</h2>
           <div className='flex justify-between'>
             <Button
+            href='mailto:adeyemis710@gmail.com'
             className='bg-black-100 text-white' 
             title='Email Me' />
             <Button 
+            href='https://wa.link/o90fhd'
             className='border-2'
             title='Whatsapp' />
           </div>

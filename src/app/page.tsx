@@ -6,9 +6,11 @@ import Services from "@/components/Services";
 export default function Home() {
   return (
    <main className="bg-primary flex flex-col gap-[3em]">
-    <div className="flex  flex-col w-full max-w-4xl mx-auto">
+    <div className="flex  flex-col w-full max-w-5xl mx-auto">
     <Hero />
+  </div>
     <Experience />
+    <div className="flex  flex-col w-full max-w-5xl mx-auto">
     <Awards />
     <Works />
     {/* <Pitch /> */}

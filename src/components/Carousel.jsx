@@ -62,7 +62,7 @@ const Carousel = ({children:slides}) => {
         </button>
       </div>
       <div 
-      style={{transform: `translateX(-${current * 100}%)`}}
+      style={{transform: `translateX(-${current * 102}%)`}}
       className="flex gap-5 transition-transform ease-out duration-500"
       >
       {slides}
