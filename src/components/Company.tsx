@@ -18,7 +18,7 @@ type CompanyProps = {
 
 const Company = ({  experience}:CompanyProps) => {
   return (
-    <div className='flex flex-col text-black border border-white p-5 gap-2 mt-[2em] w-[300px] min-w-[300px] border-b-2 pb-2 md:border-b-0 '>
+    <div className='flex flex-col animate-loop-scroll text-black border border-white p-5 gap-2 mt-[2em] w-[300px] min-w-[300px] border-b-2 pb-2 md:border-b-0 '>
       <div className='flex  items-center justify-between'>
         <h1 className='font-medium uppercase'>{experience.company_name}
         </h1>

@@ -32,8 +32,20 @@ import Nse from './gallery/nse.jpg';
 import lasric from './gallery/lasric.jpg';
 import colab from './collaboration.png';
 import nigerialogo from './nigeria.png';
+import githubLogo from './socials/github.png';
+import linkedin from './socials/linkedin.png';
+import twitter from './socials/twitter.png';
+import whatsapp from './socials/whatsapp.png';
+import gsap from './tech/gsap.png';
+import django from './tech/django.png';
 
 export {
+  django,
+  gsap,
+  linkedin,
+  twitter,
+  whatsapp,
+  githubLogo,
   colab,
   logo,
   nigerialogo,

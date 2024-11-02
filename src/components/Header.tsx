@@ -1,23 +1,30 @@
 import React from 'react'
-import Button from './Button'
-import Link from 'next/link'
+import { socials } from '@/constants'
+import Image from 'next/image'
 
 const Header = () => {
   return (
     <header className='flex  items-center justify-between w-full  text-black '>
-        <div className='flex items-center gap-5 text-sm '>
             <p className='hover:underline transition-all'>cody@kidscantech.com</p>
-            <Button
-             title='CV'
-            />
-        </div>
-        <div className='flex gap-2 text-sm '>
-            <Link className='hover:underline transition-all'  href='/'>LinkedIn</Link>
-            <Link className='hover:underline transition-all'  href='/'>Github</Link>
-            <Link className='hover:underline transition-all' href='/'>Twitter</Link>
-            <Link className='hover:underline transition-all' href='/'>Whatsapp</Link>
-        </div>
+            
+        <div className='flex gap-5  text-black-500  '>
+          {socials.map((socials, i) => (
+            <a
+             key={i}
+             href={socials.link}
+             target='_blank'
+             rel='noopener noreferrer'
+             >
+              <Image 
+              src={socials.icon} 
+              alt={socials.name}
+              className='w-5 md:w-7 transition-all duration-500 ease-linear'
+               />
+            </a>
 
+          ))}
+          
+        </div>
         
     </header>
   )
